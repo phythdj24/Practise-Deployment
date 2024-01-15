@@ -28,7 +28,7 @@ const port = 3010;
 app.use(express.static('static'));
 
 app.get('/', (req, res) => {
-  res.send(console.log("Hello server"))
+  res.send(' <h1> Hello Server </h1>')
 });
 
 app.listen(port, () => {
